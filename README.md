@@ -1,4 +1,4 @@
-# [Blender v3.4.1+] My Templates
+# My Templates (Blender v3.4.1)
 Adds a custom sub-menu to Blender Text Editor menu Templates.
 To use it you have to:
   1. define a script folder path in Blender > Edit > Preferences
