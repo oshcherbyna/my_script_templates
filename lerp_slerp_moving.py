@@ -18,11 +18,7 @@ def obj_move_to_target(obj1, obj2, rot_speed = 0.1, move_speed = 0.01, distance 
     '''
     
     #====== slerp rotation =====
-    
-    # Змінити орієнтацію об'єкта на інтерпольований кватерніон.
-    obj1.rotation_mode = 'QUATERNION'
-    obj1.rotation_quaternion = interpolated_quat
-    
+
     # Обчислити вектор напрямку.
     direction = obj1.location - obj2.location
 
@@ -33,6 +29,9 @@ def obj_move_to_target(obj1, obj2, rot_speed = 0.1, move_speed = 0.01, distance 
     # Інтерполювати між початковим і кінцевим кватерніонами за допомогою slerp.
     interpolated_quat = start_quat.slerp(end_quat, rot_speed)
 
+    # Змінити орієнтацію об'єкта на інтерпольований кватерніон.
+    obj1.rotation_mode = 'QUATERNION'
+    obj1.rotation_quaternion = interpolated_quat
     
     #===== lerp moving =====
 
