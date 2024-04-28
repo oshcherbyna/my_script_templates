@@ -1,5 +1,5 @@
 # My Script Templates v2.0 (Blender v4.0.0)
-    
+https://blenderartists.org/t/addon-my-script-templates    
 - Reads the user's scripts folder in blender preferences.
 - Adds subdirectories with custom scripts to the TextEditor's Templates menu.
 
