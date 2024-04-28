@@ -2,9 +2,9 @@
     Reads the user's scripts folder in blender preferences.
     Adds subdirectories with custom scripts to the TextEditor's Templates menu.
     To use it:
-        1. set path to custom scripts folder in Preferences.
+        1. set the path to the Custom Scripts folder in Preferences.
         2. install the addon or run it from within TextEditor.
-        3. add necessary subfolders and files to the custom scripts folder.
+        3. add the necessary subfolders and script files.
     
     Читає шлях до папки скриптів користувача в налаштуваннях blender.
     Додає знайдені підкаталоги з скриптами користувача до меню Templates редактора скриптів.
@@ -22,7 +22,7 @@ bl_info = {
     "location": "TEXT_EDITOR > Templates > .. custom script templates",
     "description": "Reads the user's scripts folder. Adds subdirectories with custom scripts to the TextEditor's Templates menu.",
     "warning": "",
-    "doc_url": "",
+    "doc_url": "https://github.com/oshcherbyna/my_script_templates",
     "category": "Templates",
 }
 
